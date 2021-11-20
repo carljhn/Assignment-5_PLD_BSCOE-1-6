@@ -11,3 +11,12 @@ def get_Grade():
     elif grade=="D":
         print("Grade/Mark: D")
         print("Description: Dropped")
+    else:
+        grade=float(grade)
+        if 97<=round(grade)<=100:
+            print("Grade/Mark: 1.0")
+            print("Description: Excellent")
+            
+        elif 94<=round(grade)<=96:
+            print("Grade/Mark: 1.25")
+            print("Description: Excellent")
