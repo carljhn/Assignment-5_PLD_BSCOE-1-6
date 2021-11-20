@@ -8,3 +8,5 @@ elif age==18:
     print("Debut")
 else: 
     print("You are an Adult.")
+
+print("Thank you for using the program!")
