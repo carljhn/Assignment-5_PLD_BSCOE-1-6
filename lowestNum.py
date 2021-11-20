@@ -9,3 +9,8 @@ def get_lowestNum(num1, num2, num3):
         return num2
     else:
         return num3
+def display(lowest_):
+    print(f"The lowest number is {lowest_}")
+
+lowest=get_lowestNum(num1, num2, num3)
+display(lowest)
