@@ -53,10 +53,7 @@ def get_Grade():
             print("Grade/Mark: 5.00")
             print("Description: Failure")
 
-        
-       
+        return grade
 
-            
-        
-            
-        
+grade_=get_Grade()
+print("Thank you for using this program!")        
