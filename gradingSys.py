@@ -45,7 +45,17 @@ def get_Grade():
             print("Grade/Mark: 2.75")
             print("Description: Satisfactory")
             
+        elif round(grade)==75:
+            print("Grade/Mark: 3.00")
+            print("Description: Passing")
+            
+        elif 65<=round(grade)<=74:
+            print("Grade/Mark: 5.00")
+            print("Description: Failure")
+
         
+       
+
             
         
             
