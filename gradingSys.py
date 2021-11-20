@@ -36,5 +36,17 @@ def get_Grade():
         elif 82<=round(grade)<=84:
             print("Grade/Mark: 2.25")
             print("Description: Good")
+        
+        elif 79<=round(grade)<=81:
+            print("Grade/Mark: 2.50")
+            print("Description: Satisfactory")
+            
+        elif 76<=round(grade)<=78:
+            print("Grade/Mark: 2.75")
+            print("Description: Satisfactory")
+            
+        
+            
+        
             
         
